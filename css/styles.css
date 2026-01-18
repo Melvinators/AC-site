@@ -352,6 +352,40 @@ img {
   border-radius: var(--radius-md);
 }
 
+.coverage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+  align-items: center;
+}
+
+.coverage-list {
+  background: #fff;
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  box-shadow: var(--shadow-soft);
+}
+
+.coverage-list strong {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.coverage-list ul {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 6px 16px;
+  color: var(--slate-600);
+}
+
+.coverage-map img {
+  width: 100%;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-soft);
+}
+
 .promo-card,
 .blog-card,
 .review-card,
