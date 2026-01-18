@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="360" viewBox="0 0 520 360">
+  <rect width="520" height="360" fill="#e2e8f0"/>
+  <rect x="40" y="50" width="440" height="260" rx="16" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+  <text x="260" y="170" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="#1e293b">Before Service</text>
+  <text x="260" y="205" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#475569">System performance issue</text>
+</svg>

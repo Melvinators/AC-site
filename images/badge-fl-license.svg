@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="220" viewBox="0 0 220 220">
+  <rect width="220" height="220" fill="#e2e8f0"/>
+  <circle cx="110" cy="110" r="90" fill="#ffffff" stroke="#1e40af" stroke-width="6"/>
+  <text x="110" y="90" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#1e293b">FL License</text>
+  <text x="110" y="125" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#475569">CAC1234567</text>
+</svg>

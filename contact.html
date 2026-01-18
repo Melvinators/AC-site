@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Almanza AC | Schedule Service in Tampa Bay</title>
+    <meta
+      name="description"
+      content="Schedule AC repair or maintenance with Almanza Air Conditioning in Clearwater. Call or submit a service request for fast response."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="emergency-banner">
+      AC Emergency? We're Available 24/7 - Call 813-796-2882
+    </div>
+
+    <header class="header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">
+          <picture>
+            <source type="image/webp" srcset="images/logo.webp" />
+            <img class="brand-logo" src="images/logo.png" alt="Almanza AC logo" decoding="async" />
+          </picture>
+          <span>Almanza Air Conditioning</span>
+        </a>
+        <nav class="nav" data-nav>
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="specials.html">Specials</a>
+          <a href="blog.html">Blog</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <a class="phone-link" href="tel:+18137962882">813-796-2882</a>
+          <a class="btn btn-primary" href="contact.html">Request Service</a>
+          <button class="menu-toggle" data-menu-toggle aria-expanded="false" type="button">
+            Menu
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="page-hero">
+      <div class="container">
+        <div>
+          <h1>Contact Us</h1>
+          <p>Schedule service or request a quote. We respond within 1 hour during business hours.</p>
+        </div>
+        <div class="hero-logo" aria-hidden="true">
+          <picture>
+            <source type="image/webp" srcset="images/logo.webp" />
+            <img src="images/logo.png" alt="" decoding="async" />
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="form-grid">
+          <div>
+            <h2>Contact Information</h2>
+            <p><strong>Phone:</strong> <a href="tel:+18137962882">813-796-2882</a></p>
+            <p><strong>Email:</strong> <a href="mailto:info@almanzaac.com">info@almanzaac.com</a></p>
+            <p><strong>Address:</strong> 123 Main Street, Clearwater, FL 33755</p>
+            <p><strong>Hours:</strong></p>
+            <p>Mon-Fri: 7:00 AM - 7:00 PM</p>
+            <p>Saturday: 8:00 AM - 5:00 PM</p>
+            <p>Sunday: Emergency Service Only</p>
+            <p><strong>24/7 Emergency Line Available</strong></p>
+          </div>
+
+          <div>
+            <h2>Service Request</h2>
+            <p class="form-note hidden" data-success-message>
+              Thank you! We'll contact you within 1 hour during business hours.
+            </p>
+            <form
+              action="https://formspree.io/f/placeholder"
+              method="POST"
+              data-service-form
+              novalidate
+            >
+              <div class="form-grid">
+                <div class="form-field">
+                  <label for="name">Name *</label>
+                  <input id="name" name="name" type="text" required />
+                  <span class="error-text" data-error-for="name"></span>
+                </div>
+                <div class="form-field">
+                  <label for="phone">Phone *</label>
+                  <input id="phone" name="phone" type="tel" required />
+                  <span class="error-text" data-error-for="phone"></span>
+                </div>
+                <div class="form-field">
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" />
+                </div>
+                <div class="form-field">
+                  <label for="service">Service Needed</label>
+                  <select id="service" name="service">
+                    <option>AC Repair (Emergency)</option>
+                    <option>AC Repair (Non-Emergency)</option>
+                    <option>AC Installation / Replacement Quote</option>
+                    <option>Maintenance / Tune-Up</option>
+                    <option>Heating Service</option>
+                    <option>Indoor Air Quality</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="form-field">
+                  <label for="date">Preferred Date</label>
+                  <input id="date" name="date" type="date" />
+                </div>
+                <div class="form-field">
+                  <label for="time">Preferred Time</label>
+                  <select id="time" name="time">
+                    <option>Morning</option>
+                    <option>Afternoon</option>
+                    <option>Evening</option>
+                    <option>ASAP</option>
+                  </select>
+                </div>
+                <div class="form-field">
+                  <label for="address">Service Address</label>
+                  <input id="address" name="address" type="text" />
+                </div>
+                <div class="form-field">
+                  <label for="city">City</label>
+                  <input id="city" name="city" type="text" />
+                </div>
+                <div class="form-field">
+                  <label for="zip">Zip Code</label>
+                  <input id="zip" name="zip" type="text" />
+                </div>
+              </div>
+              <div class="form-field" style="margin-top: 16px;">
+                <label for="message">Describe the Issue</label>
+                <textarea id="message" name="message"></textarea>
+              </div>
+              <button class="btn btn-primary" type="submit" style="margin-top: 16px;">
+                Submit Request
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div style="margin-top: 32px;">
+          <div class="map-placeholder">Google Maps Embed Placeholder</div>
+        </div>
+
+        <div style="margin-top: 40px;">
+          <div class="section-title">
+            <h2>Book Online</h2>
+            <p>Reserve a time that works for you. Confirmation sent instantly.</p>
+          </div>
+          <iframe
+            class="embed-frame"
+            src="https://calendly.com/placeholder"
+            title="Online booking calendar placeholder"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <picture>
+              <source type="image/webp" srcset="images/logo.webp" />
+              <img class="footer-logo" src="images/logo.png" alt="Almanza AC logo" loading="lazy" decoding="async" />
+            </picture>
+            <h4>Almanza Air Conditioning</h4>
+            <p>Serving Clearwater, Tampa, St. Petersburg &amp; Surrounding Areas</p>
+            <div class="badge-row">
+              <span>License #CAC1234567</span>
+                            <span>Family Owned</span>
+            </div>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <p><a href="tel:+18137962882">813-796-2882</a></p>
+            <p><a href="mailto:info@almanzaac.com">info@almanzaac.com</a></p>
+            <p>123 Main Street, Clearwater, FL 33755</p>
+          </div>
+          <div>
+            <h4>Explore</h4>
+            <p><a href="services.html">Services</a></p>
+            <p><a href="specials.html">Specials</a></p>
+            <p><a href="blog.html">Blog</a></p>
+            <p><a href="financing.html">Financing</a></p>
+          </div>
+          <div>
+            <h4>Hours</h4>
+            <p>Mon-Fri: 7AM-7PM</p>
+            <p>Sat: 8AM-5PM</p>
+            <p>Sun: Emergency Only</p>
+            <p><strong>24/7 Emergency Service Available</strong></p>
+          </div>
+        </div>
+        <small>© <span data-year></span> Almanza Air Conditioning</small>
+      </div>
+    </footer>
+
+    <a class="chat-fab" href="https://tawk.to/placeholder" target="_blank" rel="noreferrer">
+      Chat Now
+    </a>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
